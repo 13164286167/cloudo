@@ -1,0 +1,180 @@
+.contentUl{
+    margin: 60px auto 40px;
+    max-width: 1200px;
+    padding-left: 25px;
+    claer:both;
+}
+.contentUl ul li{
+    float:left;
+    width: 150px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+
+}
+.contentUl ul li:nth-child(1){
+    background:url("../img/same/list1.png") no-repeat left center;
+
+
+}
+.contentUl ul li:nth-child(2){
+    background:url("../img/same/list2_2.png") no-repeat left center;
+    color:#fff;
+}
+.contentUl ul li:nth-child(3){
+    background:url("../img/same/list3.png") no-repeat left center;
+}
+
+    /*收货地址*/
+.orderContent{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+}
+.addAddress{
+    color: #0099FF;
+    border: 0;
+    background: none;
+    padding:0;
+}
+.title{
+    width: 100%;
+    padding-bottom: 10px;
+    overflow: hidden;
+    padding-top: 10px;
+    border-top: 1px solid #DDDDDD;
+}
+.title span{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.same{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.distribution label{
+    display: block;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.distribution{
+    border-bottom:1px solid #DDDDDD;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+}
+.shopList{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.shopList table{
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    border-collapse:collapse;
+    /*background-color: #eee;*/
+}
+
+.shopList tr td.img {
+    width: 10%;
+
+
+}
+.shopList tbody tr td.img img{
+    width: 80px;
+    height: 80px;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+.shopList tr td{
+    border: 1px solid #dddddd;
+}
+
+td, th {
+    height:37px;
+    /*padding: 5px 0;*/
+    vertical-align: middle;
+    box-sizing:border-box;
+}
+.shopList table tbody tr td:first-child{
+    padding:0 !important;
+}
+.shopList table tbody tr{
+    height:81px;
+}
+.shopList tr td.shop {
+    width: 20%;
+}
+.shopList tr td.number {
+    width:5%;
+}
+.shopList tr td.count {
+    width: 5%;
+}
+.shopList tr td.price {
+    width: 5%;
+}
+input.shopNumber {
+    display: inline-block;
+    width: 40px;
+    height: 36px;
+    box-sizing:border-box;
+    text-align:center;
+}
+.samecart{
+    border-top:1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+.coupon{
+    border: 0;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor:pointer;
+}
+.remarks{
+    width: 100%;
+    margin: 20px auto;
+}
+.remarks input{
+    width: 217px;
+    height: 35px;
+    padding: 5px;
+    box-sizing:border-box;
+}
+.cartTotal{
+    padding: 15px 10px;
+}
+.cartTotal p{
+    margin-bottom:5px;
+    text-align: right;
+    line-height: 24px;
+}
+.totals{
+    width: 35%;
+}
+.totals a{
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+    color: #0099FF !important;
+}
+.orderContent .cartFooter .totals .cartTotal p:last-child{
+    font-size:16px;
+}
+.orderContent .cartFooter .totals .cartTotal p:last-child span {
+    color: red;
+}
+.btn3{
+    height: 45px;
+    background: #333;
+    width: 30%;
+    color: #fff;
+    border: none;
+    display: block;
+    float: right;
+    font-size: 10px;
+}

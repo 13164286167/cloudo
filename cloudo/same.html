@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/same.css">
+
+</head>
+<body>
+	<div id="header"></div>
+	<div class="contentUl">
+		<ul class="clear">
+			<li>查看购物车</li>
+			<li>订单结算</li>
+			<li>订单完成</li>
+		</ul>
+	</div>
+	<div class="newContent">
+		<div class="shopCart">
+			<!--商品列表-->
+			<div class="shopList">
+				<div class="shopIntroduce">
+					<ul class="clear">
+						<li class="index"><input type="checkbox" id="seleAll">&nbsp;全选</li>
+						<li class="img">图片</li>
+						<li class="shop">商品名称</li>
+						<li class="price">价格</li>
+						<li class="number">数量</li>
+						<li class="count">小计</li>
+						<li class="del">操作</li>
+					</ul>
+				</div>
+				<div class="newCartShop">
+					<div class="goodsCategory">
+						<p class="goodsCategoryTitle">英国直邮</p>
+						<p class="avtiveName"><span class="line">满减折</span>&nbsp;&nbsp;2件7.5折/3件7折/4件6.5折</p>
+					</div>
+					<div class="border">
+						<ul class="clear" >
+							<li class="index"><input type="checkbox"></li>
+							<li class="img"><img src="img/same/0068080_text-logo-print-short-sleeved-t-shirt-black.jpeg" alt=""></li>
+							<li class="shop">
+								<p>EMILIO PUCCI&nbsp;&nbsp;<span>Text Logo Print Short Sleeved T-Shirt Black</span></p>
+								<p>4 YEAR&nbsp;&nbsp;英国直邮(包邮)：1</p>
+							</li>
+							<li class="price">¥889</li>
+							<li class="number">
+								<input class="min" type="button" value="-">
+								<input type="text" value="1">
+								<input class="add" type="button" value="+">
+
+							</li>
+							<li class="count">¥889</li>
+							<li class="del"><input type="button" value="删除"></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+
+			<!--结算按钮-->
+			<div class="cartFooter clear">
+				<div class="totals">
+					<input type="button" class="btn3" value="提交订单">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newBg" ></div>
+	<!--提示框-->
+	<div class="tip">
+		<div class="tipTitle">
+			提示
+		</div>
+		<div class="tipWord">
+			收藏成功
+		</div>
+	</div>
+	<div class="popWin" id="popSuc">
+		<div class="but_title">提示</div>
+		<p>是否删除该商品!</p>
+		<div id="hxiCle">取消</div>
+		<div id="hxiEnA">确认</div>
+	</div>
+	<div id="footer"></div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+	<script src="js/shopping_cart/get_cart.js"></script>
+</body>
+</html>

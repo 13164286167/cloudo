@@ -1,0 +1,43 @@
+.footer{
+	background-color: #000;
+	width: 100%;
+	height:387px;
+	color:#fff;
+	text-align:center;
+}
+.footImg{
+	width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 80px;
+}
+.footImg div{
+	width:150px;	
+}
+.footImg p{
+	margin-top:21px;
+}
+.foot{
+	padding: 45px 0 80px;	
+}
+.foot ul li a{
+	color:white;
+}
+.foot ul li{
+	float:left;
+	
+}
+.foot ul li:before{
+	display: inline-block;
+	content: "";
+	background: #fff;
+	width: 4px;
+	height: 4px;
+	margin: 3px 9px;
+}
+.foot ul .li_1{
+	margin-left:30%;
+}
+.foot ul{
+	height:30px;
+}

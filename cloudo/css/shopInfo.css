@@ -1,0 +1,329 @@
+.content{
+    margin-top:17px !important;
+}
+.content .containerUl{
+    margin-bottom:10px;
+}
+.content .containerUl ul{
+    padding-left: 25px;
+}
+.content>.containerUl ul li{
+    float:left;
+}
+.shopInfo .smallImg ul li:first-child{
+    padding-bottom: 20px;
+}
+.shopInfo .smallImg ul li a img{
+    width:95px;
+    height:95px;
+}
+.shopInfo .smallImg{
+    width:95px;
+    float:left;
+}
+.shopInfo .shopImg{
+    width: 745px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    padding-left: 25px;
+    box-sizing:border-box;
+}
+.shopInfo .bigImg{
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    overflow:hidden;
+    /*background: url('../img/product_details/0065556_regina-cuori-queen-of-hearts-print-t-shirt-multi (1).jpeg') no-repeat;*/
+    background-size:cover;
+}
+.shopInfo .bigImg img{
+    width:500px;
+    height:500px;
+    vertical-align: middle;
+}
+.content .shopPrice{
+    width: 455px;
+    float: right;
+
+}
+.shopPrice .shopTitle{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+.shopPrice .shopTitle p{
+    margin: 0 0 10px;
+}
+.shopPrice .shopTitle .doc1{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.shopPrice .shopTitle .doc2{
+    margin-bottom: 20px;
+}
+.shopPrice .selectList{
+    margin: 10px auto 0;
+
+}
+.shopPrice .selectList>p:first-child{
+    font-size:14px;
+    margin-bottom:10px;
+}
+.shopPrice .selectList>p:last-child{
+    font-size: 12px;
+    color: #c9c9c9 !important;
+}
+.shopPrice select{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.shopBuy ul li{
+    box-sizing:border-box;
+    float: left;
+    border:1px solid #ddd;
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 28px;
+    cursor:pointer;
+}
+.sizeList{
+    cursor:pointer;
+}
+.shopData{
+    margin:10px 0;
+    padding:10px 0;
+}
+.shopBuy ul li:nth-child(2){
+    border:1px solid #bbb;
+    cursor:text;
+}
+.shopBuy .buyerNumber{
+    width: 41px;
+    height: 26px;
+    box-sizing:border-box;
+    text-align: center;
+    font-size: 10px;
+    padding:0 !important;
+    outline:none;
+    border:none;
+}
+.buyerShop{
+    float: right;
+    width:280px;
+    height:30px;
+    background: #333;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+}
+.buyerShop:hover{
+    background: #666;
+}
+.shopBuy{
+    margin: 10px auto;
+}
+.love{
+    padding: 5px 0px 5px 20px;
+    background: url("../img/product_details/wishlist-icon.png") no-repeat left center;
+    background-size: 15px 15px;
+    width: 105px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.haslove{
+    background: url("../img/product_details/hasLove.png") no-repeat left center;
+    background-size: 15px 15px;
+}
+/*		商品描述*/
+.buyerNote{
+    width: 100%;
+    margin: 40px auto 20px;
+    overflow: hidden;
+    padding-left: 25px;
+    box-sizing:border-box;
+}
+.buyerNote p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    width: 80px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.buyerEdit{
+    padding:20px;
+    background-color: #f5f5f5;
+}
+.buyerEdit ul{
+    list-style: disc;
+    overflow: inherit;
+    /*			margin-left: 20px;*/
+    font-size: 12px;
+    margin-bottom:10px;
+}
+.buyerEdit ul li{
+    margin:0 0 10px 20px;
+}
+.brand img{
+    height: 250px;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #DDDDDD;
+}
+.brandInfo{
+    float: right;
+    width: 700px;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0 50px;
+    box-sizing:border-box;
+}
+.collocation{
+    padding-left:25px;
+    margin:40px 0;
+    box-sizing:border-box;
+}
+.collocation p:first-child{
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    width: 80px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.collocation p:nth-child(2){
+    float: right;
+}
+.collocation ul{
+    clear:both;
+}
+.collocation ul li{
+    float: left;
+    width: 200px;
+}
+.collocation ul li a{
+    display: block;
+    text-align:center;
+}
+.collocation ul li a img{
+    width: 200px;
+    height: 200px;
+}
+.collocation ul li a div{
+    font-size: 12px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.collocation ul li a div:nth-child(2){
+    margin-top:10px;
+}
+.collocation ul li:not(:first-child){
+    margin-left:125px;
+}
+.sizeStyle{
+    width: 30%;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    z-index: 1001;
+    display: none;
+    background: #666;
+    color: #fff;
+    height: 520px;
+}
+.sizeLst{
+    height: 480px;
+    padding: 0 20px 20px 20px !important;
+    margin-top: 20px;
+    overflow: hidden;
+    outline: none;
+
+}
+#newSize {
+    height: 480px;
+}
+.sizeStyle>img{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+.sizeLst tr td{
+    padding: 5px 0;
+    width: 7%;
+    border: 1px solid #DDDDDD;
+}
+
+.sizeLst tr {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+.sizeLst tr:nth-child(1) {
+    background: #666666 !important;
+}
+.newBg{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+.tip{
+    height:152px;
+    width:272px;
+    position:fixed;
+    left:40%;
+    top:30%;
+    z-index:1001;
+    display:none;
+    overflow: hidden;
+    border-radius:6px;
+}
+.tipTitle{
+    height:40px;
+    background-color: #000;
+    color: #fff;
+    line-height:40px;
+    padding-left:10px;
+    font-size:14px;
+}
+.tipWord{
+    background-color: #fff;
+    height:112px;
+    color:#000;
+    box-sizing:border-box;
+    text-align:center;
+    line-height:92px;
+    font-size:14px;
+}
+/*.bmark{*/
+/*width:500px;*/
+/*height:500px;*/
+/*position:absolute;*/
+/*left:120px;*/
+/*top:0;*/
+/*z-index:0;*/
+/*background-color: transparent;*/
+/*}*/

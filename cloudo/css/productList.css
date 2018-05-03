@@ -1,0 +1,371 @@
+.mainContent{
+    position:relative;
+    min-height: 1233px;
+}
+.mainContent>.filter{
+    width: 300px;
+    overflow:hidden;
+    padding-left: 17px;
+    box-sizing:border-box;
+}
+.priceFilter{
+    margin: 10px auto 12px;
+}
+.mainContent>.filter.fixed{
+    position:fixed;
+    top:100px;
+    left:50px;
+    z-index:1000;
+}
+.rankingAgain ul li{
+    cursor:pointer;
+}
+.main{
+    margin-top:10px !important;
+}
+.brandString{
+    padding-left:17px;
+    margin-bottom:5px;
+}
+.click{
+    color:#000;
+}
+.priceRange [type=text]{
+    width:50px;
+    height:20px;
+    text-align:center;
+}
+.priceRange [type=button]{
+    height:23px;
+    width: 44px;
+}
+.to{
+    margin:0 10px;
+}
+/*右侧productListWrap*/
+.mainContent>.porductListWrap{
+    width:900px;
+    overflow:hidden;
+    min-height: 1233px;
+
+}
+.porductListWrap>.productList{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+}
+.porductListWrap>.productList>.productWrap{
+    width:297px;
+    height: 450px;
+    box-sizing:border-box;
+    position:relative;
+}
+.porductListWrap>.productList>.productWrap>.loveOne{
+    width: 90px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    right: 90px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+.lover{
+    float:right;
+    width: 20px;
+    height: 20px;
+    background: url(../img/product_details/iLove.jpg) no-repeat center center;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+.porductListWrap>.productList>.productWrap>.loveOne>ul{
+    width: 70px;
+    height: 350px;
+    float: right;
+    margin-bottom: 10px;
+}
+.porductListWrap>.productList>.productWrap:hover>.loveOne{
+    z-index: 100;
+    right: -50px;
+    opacity: 1;
+    transition:all .5s linear;
+}
+.porductListWrap>.productList>.productWrap:nth-child(3n):hover>.loveOne{
+    z-index: 100;
+    right:240px;
+    opacity: 1;
+    transition:all .5s linear;
+
+}
+.porductListWrap>.productList>.productWrap>.loveOne>ul>li{
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.proInfo{
+    height: 450px;
+    float: left;
+    position: relative;
+    background: #fff;
+    text-align:center;
+}
+.proInfo>.product{
+    height:270px;
+}
+.proInfo .product>img{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+    cursor:pointer;
+}
+.proInfo>.brandName{
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.proInfo>.productName{
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.proInfo>.border{
+    width: 10%;
+    height: 15px;
+    margin: 0 auto 15px;
+    border-bottom: 1px solid #000;
+}
+.proInfo>.price>.awardPoint{
+    display: inline-block;
+    width: 20px;
+    text-align:center;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left:10px;
+}
+/*		排序*/
+.rankingAgain{
+    width:90%;
+    margin: 15px auto 0;
+    position:relative;
+}
+.paixu{
+    height:36px;
+    line-height: 36px;
+    text-align: left;
+    cursor: pointer;
+    background: #fff;
+    font-size: 12px;
+    border-top: 1px solid #a5a5a5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.rankingMe{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.rankingName{
+    display:inline-block;
+    padding-left:6%;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    color: #8c8c8c;
+    font-size: 10px;
+}
+.rankingWrap{
+    height:100px;
+    transition:all .5s linear;
+    overflow:hidden;
+}
+.sizeHeight{
+    height: 200px;
+    position:relative;
+}
+.scrollMove{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width: 2px;
+    background: #000;
+    height:100px;
+}
+.scroll{
+    background-color: #ccc;
+    position:absolute;
+    top:0px;
+    right:0px;;
+    height:100%;
+    width: 2px;
+    border-radius: 7px;
+    background:#000;
+    opacity: 0.6;
+    z-index: 90;
+    right: 0px;
+}
+.scrollTo{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+
+}
+/*		分页*/
+.page{
+    /*position: absolute;*/
+    /*height: 30px;*/
+    /*bottom: 15px;*/
+    /*left: 50%;*/
+    /*z-index: 50;*/
+    display: block;
+    float:right;
+}
+.page>li{
+    float:left;
+
+    padding: 3px 6px !important;
+    margin-left: 5px;
+    color: #666;
+    background: #fff;
+    cursor:pointer;
+    border:1px solid #ddd;
+    border-radius:2px;
+}
+.select-pagesize{
+    padding-bottom:20px;
+}
+.select-pagesize>select{
+    width: 70px;
+    outline:none;
+    height: 25px;
+
+}
+.select-pagesize>input{
+    text-align:center;
+    width: 28px;
+    border:none;
+    outline:none;
+    vertical-align: top;
+    line-height: 20px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+.select-pagesize>a{
+    display: inline-block;
+    height: 20px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    border-radius: 2px;
+    line-height: 20px;
+    padding: 0 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.pagebox{
+    height:50px;
+    /*padding-right:100px;*/
+    /*padding-left:170px;*/
+    position:absolute;
+    height: 30px;
+    bottom: 25px;
+    left: 30%;
+    z-index: 50;
+}
+.page>li.active{
+    background-color: #000;
+}
+.page>li.active>a{
+    color: #fff
+}
+.page>li:not(:last-child):hover{
+    background-color: #000;
+}
+.page>li:not(:last-child):hover>a{
+    color: #fff;
+}
+.pageDisabled{
+    background-color: #f6f6f6;
+    cursor: default;
+    border: none;
+    color: #ddd;
+}
+.liPageDisabled{
+    border:none !important;
+    background:#f6f6f6 !important;
+    cursor:default !important;
+}
+.hasFilter {
+    width: 100%;
+    /*margin-top: 12px;*/
+    display: none;
+    /*padding-bottom: 30px;*/
+    position: relative;
+    overflow-x: hidden;
+}
+.hasFilter span {
+    box-sizing: border-box;
+    padding: 0 4px;
+}
+.rankingWrap>li:hover>span:nth-child(1){
+     background-color: #000;
+ }
+.rankingWrap>li:hover>span:nth-child(2){
+    color: #000;
+}
+.rankingBg{
+    background-color: #000;
+}
+.rankingColor{
+    color: #000;
+}
+.wantLook {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 2px auto 0;
+    height: 30px;
+    background: #eeeeee;
+}
+.wantLook span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.wantLook span:first-child {
+    width: 25px;
+    float: left;
+    cursor: pointer;
+    background: url(../img/new_product/exit.png) no-repeat center center;
+    background-size: 13px 13px;
+}
+.wantLook span:nth-child(2) {
+    float: right;
+    padding-right: 10px;
+}
+.nothing{
+    font-size: 20px;
+    top: 50%;
+    left:10%;
+    color: gray;
+    width: 1200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+}

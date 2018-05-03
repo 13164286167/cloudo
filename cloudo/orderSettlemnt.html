@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/orderSettlemnt.css">
+
+</head>
+<body>
+<div id="header"></div>
+
+<div class="contentUl">
+  <ul class="clear">
+    <li>查看购物车</li>
+    <li>订单结算</li>
+    <li>订单完成</li>
+  </ul>
+</div>
+<div class="orderContent">
+  <div class="title">
+    <span>收货地址</span>
+  </div>
+  <div class="same">
+    <input type="button" value="使用新地址" class="addAddress">
+  </div>
+  <div class="title">
+    <span>配送方式</span>
+  </div>
+  <div class="distribution">
+    <label>
+      <input type="radio" name="distribution">
+      <span>国际标准(0)元</span>
+    </label>
+    <label>
+      <input type="radio" name="distribution">
+      <span>国际快捷(169)元</span>
+    </label>
+  </div>
+  <div class="shopList">
+    <table>
+      <thead>
+        <tr>
+          <td class="img">图片</td>
+          <td class="shop">商品名称</td>
+          <td class="price">价格</td>
+          <td class="number">数量</td>
+          <td class="count">小计</td>
+        </tr>
+      </thead>
+      <tbody id="car">
+        <!--<tr id="编号">-->
+          <!--<td class="img"><img src="img/same/0068080_text-logo-print-short-sleeved-t-shirt-black.jpeg" alt=""></td>-->
+          <!--<td class="shop">-->
+            <!--<p>EMILIO PUCCI  Text Logo Print Short Sleeved T-Shirt Black</p>-->
+            <!--<p>4 YEAR&nbsp;&nbsp;英国直邮(包邮)：1</p>-->
+          <!--</td>-->
+          <!--<td class="price">¥889</td>-->
+          <!--<td class="number"><input type="text" value="1" class="shopNumber" disabled></td>-->
+          <!--<td class="count">¥889</td>-->
+        <!--</tr>-->
+      </tbody>
+    </table>
+  </div>
+  <div class="same samecart">
+    <input type="button" value="使用优惠券/礼品卡" class="coupon ">
+  </div>
+  <div class="remarks">
+    备注：<input type="text" maxlength="120">
+  </div>
+  <div class="cartFooter clear">
+    <div class="totals rf">
+      <div class="cartTotal">
+        <!--<p><input type="checkbox"><span>使用积分:0积分(￥0.00)</span></p>-->
+        <!--<p>运费：<span>0.00</span>元</p>-->
+        <!--<p>礼品卡优惠金额：<span>0.00</span>元</p>-->
+        <!--<p>优惠券优惠金额：<span>0.00</span>元</p>-->
+        <!--<p>商品金额：<span>889.00</span>元</p>-->
+        <!--<p>活动优惠：<span>0.00</span>元</p>-->
+        <!--<p>实付金额：<span>889.00</span>元</p>-->
+      </div>
+      <a href="javascript:history.go(-1);">返回购物车</a>
+      <input type="submit" value="订单结算" class="btn3">
+    </div>
+  </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/shopping_cart/get_order.js"></script>
+</body>
+</html>

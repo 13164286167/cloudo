@@ -1,0 +1,180 @@
+#header{
+	height:142px;
+}
+div.header{
+	height:90px;
+}
+a.logo{
+	float:left;
+	margin-left: 450px;
+	width: 300px;
+	height: 90px;
+	background: url("../img/index/pclogo2.png") no-repeat;   /*����ΪʲôҪ��../����ְ�*/
+	background-size: 100%;
+}
+div.login{
+	width: 20%;
+	height: 90px;
+	font-size: 10px;
+	/* position: relative; */
+}
+
+ul.login li{
+	width: auto;
+	float:right;	
+	box-sizing:border-box;
+	padding:0 10px;
+	line-height:90px;
+}
+ul.login li.login_li135{
+	width: 6px;
+	padding:0;
+}
+/*����*/
+.classify{
+	box-sizing: border-box;
+	width: 100%;
+	height: 52px;
+	border-top: 1px solid #8c8c8c;
+	border-bottom: 2px solid #000;
+	background: #fff;
+
+}
+.classify.fixed{
+	position:fixed ;
+	top:0;
+	left:0;
+	z-index:99999;
+}
+.classContent{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+.searchbig{
+	cursor:pointer;
+}
+ul.content_ul{
+	margin:auto;
+	position:relative;
+}
+ul.content_ul>li{
+	width:80px;
+	height: 50px;
+	float:left;
+	font-size:12px;
+	white-space: nowrap;
+	text-align:center;
+	text-overflow: ellipsis;
+	box-sizing:border-box;
+}
+ul.content_ul>li a{
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+
+}
+/* �����±߿� */
+ul.content_ul> li~li:hover{
+/*���ﱻ��ס��1px���±߿�*/
+	border-bottom:3px solid black;   
+}
+/*���Զ�λ����������*/
+.detailContent{
+	position:absolute;
+	top:51px;
+	left:0;
+	width: 1200px;
+	height: 300px;
+	background-color: #fff;
+	border-bottom:2px solid #000;
+	box-sizing:border-box;
+	display:none;
+}
+.content_ul li:hover div.detailContent{
+	display:block;
+	z-index:999;
+}
+.furtherContent{
+	width: 480px;
+	height: 250px;
+}
+.furtherContent>li{	
+	width: 33%;
+	line-height: 30px;
+	float: left;
+	font-size: 12px;
+	box-sizing:border-box;
+	cursor:pointer;
+	padding-left: 25px;
+	text-align:left;
+}
+.furtherContent>li:hover{
+	opacity:0.7;
+}
+.furtherClass{
+	height: 48px;
+	line-height: 48px;
+	padding-left: 25px;
+	text-align: left;
+	font-weight: 700;
+}
+.imgDesigner{
+	width: 340px;
+	height: 250px;
+	margin: 18px 0 0 8px;
+
+}
+.d_left{
+	float:left;
+}
+.d_right{
+	width: 35%;
+	height: 298px;
+	margin-right: 10%;
+}
+.imgDesigner{
+	width: 340px;
+	height: 250px;
+	margin: 18px 0 0 8px;
+}
+.d_right .imgDesigner img{
+	width: 340px;
+	height: 250px;
+}
+.buyerSearch {
+	width: 170px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	right: 20%;
+	border: 1px solid #000000;
+	display: none;
+}
+.keyWordSearch {
+	width: 170px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 111;
+}
+#keyWord {
+	width: 140px;
+	height: 24px;
+	font-size: 12px;
+	margin-left: 25px;
+	border: none;
+	outline: none;
+}
+.keyWordSearch span {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}

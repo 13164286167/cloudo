@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/productList.css">
+
+</head>
+<body>
+	<div id="header"></div>
+	<div class="main clear" >
+		<div class="brandString">
+			首页&nbsp;>&nbsp;品牌&nbsp;>&nbsp;BONPOINT
+		</div>
+		<div class="mainContent">
+				<!-- 		  左侧 -->
+
+				<div class="filter  lf clear">
+					<div class="hasFilter" style="display: block;">
+						<div class="hasFilterOne" style="display: block;"></div>
+						<div class="hasFilterTwo">
+							<!--<div class="wantLook" data-title="sex">-->
+								<!--<span class="noWant"></span>-->
+								<!--<span class="lookName">男孩</span>-->
+							<!--</div>-->
+
+						</div>
+					</div>
+					<div class="priceFilter">价格</div>
+					<div class="priceRange">
+						<span>¥&nbsp;</span>
+						<input type="text" class="expectPrice minPrice" id="product-low" placeholder="最低价">
+						<span class="to">—</span>
+						<input type="text" class="expectPrice maxPrice" id="product-high" placeholder="最高价">
+						<input type="button" class="priceBtn" value="确定">
+					</div>
+					<!-- 				排序模板 -->
+					<div class="rankingAgain " >
+						<h5 class="paixu">排序<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap" data-item="order">
+							<li>
+								<span class="rankingMe"></span>
+								<span class="rankingName" data-item="default">默认排序</span>
+							</li>
+							<li>
+								<span class="rankingMe"></span>
+								<span class="rankingName" data-item="asc">价格最低</span>
+							</li>
+							<li>
+								<span class="rankingMe"></span>
+								<span class="rankingName" data-item="desc">价格最高</span>
+							</li>
+						</ul>
+					</div>
+
+					<!-- 				性别模板 -->
+					<div class="rankingAgain">
+						<h5 class="paixu">性别<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap" data-item="gender">
+							<li>
+								<span class="rankingMe"></span>
+								<span class="rankingName" data-item="1">男孩</span>
+							</li>
+							<li>
+								<span class="rankingMe"></span>
+								<span class="rankingName" data-item="0">女孩</span>
+							</li>
+
+						</ul>
+					</div>
+					<!-- 				尺码模板 -->
+					<div class="rankingAgain sizeSelect">
+						<h5 class="paixu">尺码<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap sizeHeight">
+							<div class="scrollTo" data-item="size">
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="8岁">8岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="10岁">10岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="12岁">12岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="16岁">16岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="2岁">2岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="3岁">3岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="4岁">4岁</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="5岁">5岁</span>
+								</li>
+							</div>
+
+							<li class="scrollMove"></li>
+							<li class="scroll"></li>
+						</ul>
+
+					</div>
+					<!-- 				分类模板 -->
+					<div class="rankingAgain sizeSelect">
+						<h5 class="paixu">分类<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap sizeHeight">
+							<div class="scrollTo" data-item="sort">
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="夹克">夹克</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="卫衣">卫衣</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="西装外套">西装外套</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="衬衫">衬衫/休闲上衣</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="斗篷">斗篷</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="马甲">马甲</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="开襟衫">开襟衫</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="外套">外套</span>
+								</li>
+							</div>
+							<li class="scrollMove"></li>
+							<li class="scroll"></li>
+						</ul>
+					</div>
+					<!-- 				品牌 -->
+					<div class="rankingAgain sizeSelect">
+						<h5 class="paixu">品牌<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap sizeHeight">
+							<div class="scrollTo" data-item="brand">
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="LE PETIT COCO">LE PETIT COCO</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="KETIKETA">KETIKETA</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="VIVETTA">VIVETTA</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="AMELIA">AMELIA</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="AMELIE WANG">AMELIE WANG</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="AMIKI">AMIKI</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="ASTON MARTIN">ASTON MARTIN</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="AYMARA">AYMARA</span>
+								</li>
+							</div>
+							<li class="scrollMove"></li>
+							<li class="scroll"></li>
+						</ul>
+					</div>
+					<!-- 				颜色模板 -->
+					<div class="rankingAgain sizeSelect">
+						<h5 class="paixu">颜色<span class="rf goActive">—</span></h5>
+						<ul class="rankingWrap sizeHeight">
+							<div class="scrollTo" data-item="color">
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="黑色">黑色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="白色">白色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="蓝色">蓝色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="深蓝色">深蓝色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="象牙色">象牙色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="多色">多色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="米色">米色</span>
+								</li>
+								<li>
+									<span class="rankingMe"></span>
+									<span class="rankingName" data-item="粉色">粉色</span>
+								</li>
+							</div>
+							<li class="scrollMove"></li>
+							<li class="scroll"></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<!-- 			右侧 -->
+			<div class="porductListWrap lf clear">
+				<div class="productList">
+					<!--<div class="productWrap">-->
+						<!--<div class="proInfo">-->
+							<!--&lt;!&ndash;图片 &ndash;&gt;-->
+							<!--<div class="product">-->
+								<!--<img src="img/product_details/0065629_lucia-cherry-espadrilles-pink.jpeg">-->
+							<!--</div>-->
+							<!--<div class="brandName">BONPOINT</div>-->
+							<!--<div class="productName">Lucia'粉色格子绣花布鞋</div>-->
+							<!--<div class="border"></div>-->
+							<!--<div class="price"><span>¥1330</span><span class="awardPoint">赠</span></div>-->
+						<!--</div>-->
+						<!--<div class="loveOne">-->
+							<!--<ul>-->
+								<!--<li>3 YEAR</li>-->
+								<!--<li>4 YEAR</li>-->
+								<!--<li>5 YEAR</li>-->
+								<!--<li>6 YEAR</li>-->
+								<!--<li>7 YEAR</li>-->
+								<!--<li>10 YEAR</li>-->
+							<!--</ul>-->
+							<!--<div class="lover"></div>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="productWrap">-->
+						<!--<div class="proInfo">-->
+							<!--&lt;!&ndash;图片1 &ndash;&gt;-->
+							<!--<div class="product">-->
+								<!--<img src="img/product_details/0065629_lucia-cherry-espadrilles-pink.jpeg">-->
+							<!--</div>-->
+							<!--<div class="brandName">BONPOINT</div>-->
+							<!--<div class="productName">Lucia'粉色格子绣花布鞋</div>-->
+							<!--<div class="border"></div>-->
+							<!--<div class="price"><span>¥1330</span><span class="awardPoint">赠</span></div>-->
+						<!--</div>-->
+						<!--<div></div>-->
+					<!--</div>-->
+					<!--<div class="productWrap">-->
+						<!--<div class="proInfo">-->
+							<!--&lt;!&ndash;图片 &ndash;&gt;-->
+							<!--<div class="product">-->
+								<!--<img src="img/product_details/0065629_lucia-cherry-espadrilles-pink.jpeg">-->
+							<!--</div>-->
+							<!--<div class="brandName">BONPOINT</div>-->
+							<!--<div class="productName">Lucia'粉色格子绣花布鞋</div>-->
+							<!--<div class="border"></div>-->
+							<!--<div class="price"><span>¥1330</span><span class="awardPoint">赠</span></div>-->
+						<!--</div>-->
+					<!--</div>-->
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" ></div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery.snippet.min.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<!--<script src="js/product_list/get_all_new_products.js"></script>-->
+	<script src="js/product_list/product_search.js"></script>
+	<script>
+	
+        // $.imgLazy({ effect: 'fadeIn' });
+   		
+		$(".filter>.rankingAgain>h5>.goActive").click(function(){
+			var $span=$(this);
+			if($span.html()==="—"){
+				$span.html("+");
+				$span.parent().next().css("height","0");
+				console.log($span.parent().next()[0]);
+			}else{
+				
+				$span.html("—");
+				if($span.parent().next().is(".sizeHeight")){
+					$span.parent().next().css("height","200");
+				}else{
+					$span.parent().next().css("height","100");
+				}
+				console.log($span.parent().next()[0]);
+
+			}
+		})
+			//		悬浮li
+		// $(".rankingAgain>.rankingWrap").on("mouseenter","li",function(){
+		// 	var $li=$(this);
+		// 	$li.children().first().css("background","#000").next().css("color","#000");
+		// })
+
+    $(".rankingAgain>.rankingWrap").on("click","li",function(){
+      var $li=$(this);
+      $li.children().first().css("background","#000").next().css("color","#000");
+    })
+		//滚动事件
+			$.each($(".sizeSelect"),function(i){
+			$(".sizeSelect")[i].onmousewheel=function(e){
+				var top=parseInt($(this).children("ul").children(".scrollTo").css("top"));
+				var length=$(this).children("ul").children().children().length;
+		
+				if(e.wheelDelta<0){
+					if(-top!=length*10){
+						e.preventDefault();
+						top-=10;
+						$(this).children("ul").children(".scrollTo").css("top",top).next().css("top",-top);
+					}
+				}else{
+					if(top<=0){
+						console.log(top);
+						e.preventDefault();
+						top+=10;
+						$(this).children("ul").children(".scrollTo").css("top",top).next().css("top",-top);
+					}else{
+						top=0;
+						$(this).children("ul").children(".scrollTo").css("top",top).next().css("top",-top);
+					}
+				}
+			}
+		})
+	</script>
+	<!--<script>-->
+    <!--window.onload=function(){-->
+      <!--$(".productList").on('click','.page',function(){-->
+        <!--console.log($(".page"));-->
+			<!--})-->
+		<!--}-->
+	<!--</script>-->
+	<script src=""></script>
+</body>
+</html>

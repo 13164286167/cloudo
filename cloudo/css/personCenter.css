@@ -1,0 +1,122 @@
+.content {
+    width: 100%;
+    margin: 80px auto 40px;
+    min-height: 400px;
+}
+.info {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info .infoList {
+    width: 10%;
+    float: left;
+    margin-bottom:10px;
+}
+.info .infoList ul li {
+    width: 100%;
+    border-bottom: 0;
+    height: 36px;
+    line-height: 24px;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+}
+.info .infoList ul li:nth-child(1) {
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.info .docInfo {
+    width: 85%;
+    float: right;
+}
+.docInfo .firstInfo ul {
+    margin: 10px auto;
+    overflow: hidden;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+}
+.docInfo .firstInfo ul li {
+    width: 25%;
+    float: left;
+    height: 36px;
+    border-right: 1px solid #DDDDDD;
+    color: #000000;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.docInfo .firstInfo ul li.active{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.docInfo .firstInfo table {
+    width: 100%;
+}
+.docInfo .firstInfo table thead, .docInfo .firstInfo table tbody {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+}
+.docInfo .firstInfo table tr {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.docInfo .firstInfo table tr td {
+    border-right: 1px solid #DDDDDD;
+}
+.docInfo .firstInfo table tr td:nth-child(1) {
+    width: 25%;
+}
+.docInfo .firstInfo table tr td:nth-child(2) {
+    width: 25%;
+}
+.docInfo .firstInfo table tr td:nth-child(3) {
+    width: 15%;
+}
+.docInfo .firstInfo table tr td:nth-child(4) {
+    width: 15%;
+}
+.docInfo .firstInfo table tr td:nth-child(5) {
+    width: 20%;
+}
+.firstInfo table tbody {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+}
+.threeInfo .same {
+    width: 100%;
+}
+
+.threeInfo .same tr {
+    line-height: 36px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+}
+.threeInfo .same thead tr {
+    border-bottom: 1px solid #000000;
+}
+.threeInfo .same tr td:nth-child(1) {
+    width: 15%;
+}
+.threeInfo .same tr td:nth-child(2) {
+    width: 15%;
+}
+.threeInfo .same tr td:nth-child(3) {
+    width: 35%;
+}
+.threeInfo .same tr td:nth-child(4) {
+    width: 15%;
+}
+.threeInfo .same tr td:nth-child(1) {
+    width: 15%;
+}
